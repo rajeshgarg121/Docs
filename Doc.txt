@@ -1,0 +1,47 @@
+$ git config --list --show-origin 
+$ git config --global user.name "John Doe"
+$ git config --global user.email johndoe@example.com
+$ git config --global core.editor "'C:/Program Files/Notepad++/notepad++.exe' -multiInst -nosession"
+$ git init
+$ git add *.c
+$ git add LICENSE
+$ git commit -m 'initial project version'
+git remote add origin git@github.com:rajeshgarg121/Selenium.git
+git push -u origin master
+$ git clone https://github.com/libgit2/libgit2
+ls -al ~/.ssh
+ssh-keygen -t rsa -b 4096 -C "rajeshgarg121@gmail.com"
+eval $(ssh-agent -s)
+ssh-add ~/.ssh/id_rsa
+#help
+$ git help <verb>
+$ man git-<verb>
+
+#current status
+$ git status
+
+#log
+$ git log --since=2.weeks
+
+#ignoring files
+$ cat .gitignore
+*.[oa]
+*~
+# ignore all .a files
+*.a
+
+# but do track lib.a, even though you're ignoring .a files above
+!lib.a
+
+# only ignore the TODO file in the current directory, not subdir/TODO
+/TODO
+
+# ignore all files in any directory named build
+build/
+
+# ignore doc/notes.txt, but not doc/server/arch.txt
+doc/*.txt
+
+# ignore all .pdf files in the doc/ directory and any of its subdirectories
+doc/**/*.pdf
+
