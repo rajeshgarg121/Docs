@@ -8,6 +8,7 @@ $ git add LICENSE
 $ git commit -m 'initial project version'
 git remote add origin git@github.com:rajeshgarg121/Selenium.git
 git push -u origin master
+git pull
 $ git clone https://github.com/libgit2/libgit2
 ls -al ~/.ssh
 ssh-keygen -t rsa -b 4096 -C "rajeshgarg121@gmail.com"
