@@ -1,0 +1,5 @@
+Build project directly form Git-hub
+Build trigger automatically after commit in git project
+build trigger automatically after received mail with subject "jenkins"
+Added post action for email notification
+Added post action for publish testng result
